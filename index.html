@@ -3,53 +3,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mitchell & Sons Law Firm</title>
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f5f5f5; }
+    header { background: #003366; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: bold; }
+    .hero { padding: 4rem 2rem; text-align: center; background-color: #eaeaea; }
+    .hero h1 { font-size: 2rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; margin-bottom: 2rem; }
+    .cta { background: #007bff; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; margin: 0 10px; }
+    footer { background-color: #1c1c1c; color: white; display: flex; justify-content: space-around; padding: 2rem; flex-wrap: wrap; }
+    footer h3 { color: #00bfff; }
+    footer a { color: white; text-decoration: none; }
+  </style>
 </head>
 <body>
-  <header style="background-color: #002f6c; padding: 1em; color: white;">
-    <div style="max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
-      <h1 style="margin: 0;">Mitchell & Sons Law Firm</h1>
-      <nav>
-        <a href="index.html" style="color: white; margin-right: 20px; text-decoration: none;">Home</a>
-        <a href="blog.html" style="color: white; margin-right: 20px; text-decoration: none;">Blog</a>
-        <a href="contact.html" style="color: white; text-decoration: none;">Contact</a>
-      </nav>
-    </div>
+  <header>
+    <div><strong>Mitchell & Sons Law Firm</strong></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
-  <main style="text-align: center; background-color: #f1f1f1; padding: 3em 1em;">
-    <h2 style="font-size: 2em;">Protecting Your Rights. Defending Your Future.</h2>
-    <p style="margin-bottom: 2em;">Specializing in Family Law, Criminal Defense, and Immigration Law.</p>
+  <section class="hero">
+    <h1>Protecting Your Rights. Defending Your Future.</h1>
+    <p>Specializing in Family Law, Criminal Defense, and Immigration Law.</p>
+    <a href="pay.html" class="cta">Book Appointment</a>
+    <a href="https://wa.me/15044922433" class="cta">Message on WhatsApp</a>
+    <a href="mailto:mitchellandsonsfirm@gmail.com" class="cta">Request Callback</a>
+  </section>
 
-    <div style="display: flex; justify-content: center; gap: 20px;">
-      <a href="pay.html" style="background: #007bff; color: white; padding: 12px 20px; border-radius: 6px; text-decoration: none;">Book on Calendly</a>
-      <a href="https://wa.me/15044922433" style="background: #007bff; color: white; padding: 12px 20px; border-radius: 6px; text-decoration: none;">Message on WhatsApp</a>
-      <a href="contact.html" style="background: #007bff; color: white; padding: 12px 20px; border-radius: 6px; text-decoration: none;">Request Callback</a>
+  <footer>
+    <div>
+      <h3>Mitchell & Sons Law Firm</h3>
+      <p>We are committed to providing top-quality, cost-effective legal services across family, criminal, and immigration law.</p>
     </div>
-  </main>
-
-  <footer style="background-color: #1c1c1c; color: white; padding: 2em;">
-    <div style="max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between;">
-      <div>
-        <h3>Mitchell & Sons Law Firm</h3>
-        <p>We are committed to providing top-quality, cost-effective legal services across family, criminal, and immigration law.</p>
-      </div>
-      <div>
-        <h3>Contact Info</h3>
-        <p>Email: mitchellandsonsfirm@gmail.com</p>
-        <p>Phone: +1 504 492 2433</p>
-        <p>Customer Care: +1 786 706 3301</p>
-        <p>Address: 111 Wall Street, Suite 1100, New York, NY 10043</p>
-      </div>
-      <div>
-        <h3>Quick Links</h3>
-        <p><a href="index.html" style="color: white;">Home</a></p>
-        <p><a href="blog.html" style="color: white;">Blog</a></p>
-        <p><a href="contact.html" style="color: white;">Contact</a></p>
-      </div>
+    <div>
+      <h3>Contact Info</h3>
+      <p>Email: mitchellandsonsfirm@gmail.com</p>
+      <p>Phone: +1 504 492 2433</p>
+      <p>Customer Care: +1 786 706 3301</p>
+      <p>Address: 111 Wall Street, Suite 1100, New York, NY 10043</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <a href="index.html">Home</a><br>
+      <a href="blog.html">Blog</a><br>
+      <a href="contact.html">Contact</a>
     </div>
   </footer>
 </body>
