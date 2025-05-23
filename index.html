@@ -2,55 +2,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mitchell & Sons Law Firm</title>
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Mitchell & Sons Law Firm</title>
+    <link rel="icon" href="favicon.ico">
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            background: #eee;
+        }
+        header {
+            background: #002c5f;
+            padding: 1rem;
+            color: white;
+            text-align: left;
+            font-weight: bold;
+        }
+        nav {
+            float: right;
+            margin-top: -3rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: #f5f5f5;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        .hero .buttons a {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            text-decoration: none;
+            margin: 0 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem;
+        }
+        .footer-section {
+            width: 30%;
+        }
+        .footer-section h3 {
+            color: #00aaff;
+        }
+        .footer-section a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <header style="background-color: #002f6c; padding: 1em; color: white;">
-    <div style="max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
-      <h1 style="margin: 0;">Mitchell & Sons Law Firm</h1>
-      <nav>
-        <a href="index.html" style="color: white; margin-right: 20px; text-decoration: none;">Home</a>
-        <a href="blog.html" style="color: white; margin-right: 20px; text-decoration: none;">Blog</a>
-        <a href="contact.html" style="color: white; text-decoration: none;">Contact</a>
-      </nav>
+    <header>
+        Mitchell & Sons Law Firm
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Protecting Your Rights. Defending Your Future.</h1>
+        <p>Specializing in Family Law, Criminal Defense, and Immigration Law.</p>
+        <div class="buttons">
+            <a href="pay-confirm.html">Book on Calendly</a>
+            <a href="https://wa.me/15044922433">Message on WhatsApp</a>
+            <a href="#">Request Callback</a>
+        </div>
     </div>
-  </header>
-
-  <main style="text-align: center; background-color: #f1f1f1; padding: 3em 1em;">
-    <h2 style="font-size: 2em;">Protecting Your Rights. Defending Your Future.</h2>
-    <p style="margin-bottom: 2em;">Specializing in Family Law, Criminal Defense, and Immigration Law.</p>
-
-    <div style="display: flex; justify-content: center; gap: 20px;">
-      <a href="pay.html" style="background: #007bff; color: white; padding: 12px 20px; border-radius: 6px; text-decoration: none;">Book on Calendly</a>
-      <a href="https://wa.me/15044922433" style="background: #007bff; color: white; padding: 12px 20px; border-radius: 6px; text-decoration: none;">Message on WhatsApp</a>
-      <a href="contact.html" style="background: #007bff; color: white; padding: 12px 20px; border-radius: 6px; text-decoration: none;">Request Callback</a>
-    </div>
-  </main>
-
-  <footer style="background-color: #1c1c1c; color: white; padding: 2em;">
-    <div style="max-width: 1100px; margin: 0 auto; display: flex; justify-content: space-between;">
-      <div>
-        <h3>Mitchell & Sons Law Firm</h3>
-        <p>We are committed to providing top-quality, cost-effective legal services across family, criminal, and immigration law.</p>
-      </div>
-      <div>
-        <h3>Contact Info</h3>
-        <p>Email: mitchellandsonsfirm@gmail.com</p>
-        <p>Phone: +1 504 492 2433</p>
-        <p>Customer Care: +1 786 706 3301</p>
-        <p>Address: 111 Wall Street, Suite 1100, New York, NY 10043</p>
-      </div>
-      <div>
-        <h3>Quick Links</h3>
-        <p><a href="index.html" style="color: white;">Home</a></p>
-        <p><a href="blog.html" style="color: white;">Blog</a></p>
-        <p><a href="contact.html" style="color: white;">Contact</a></p>
-      </div>
-    </div>
-  </footer>
+    <footer>
+        <div class="footer-section">
+            <h3>Mitchell & Sons Law Firm</h3>
+            <p>We are committed to providing top-quality, cost-effective legal services across family, criminal, and immigration law.</p>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Info</h3>
+            <p>Email: mitchellandsonsfirm@gmail.com</p>
+            <p>Phone: +1 504 492 2433</p>
+            <p>Customer Care: +1 786 706 3301</p>
+            <p>Address: 111 Wall Street, Suite 1100, New York, NY 10043</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <p><a href="#">Home</a></p>
+            <p><a href="#">Blog</a></p>
+            <p><a href="#">Contact</a></p>
+        </div>
+    </footer>
 </body>
 </html>
