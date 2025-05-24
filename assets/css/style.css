@@ -7,24 +7,9 @@ body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 .hero-buttons button { margin: 0.5em; padding: 1em; background-color: #007BFF; color: white; border: none; cursor: pointer; }
 .footer { background: #111; color: white; display: flex; justify-content: space-around; padding: 2em 1em; flex-wrap: wrap; }
 .footer a { color: #4FC3F7; text-decoration: none; display: block; margin: 2px 0; }
-
-.contact-section {
-  padding: 3em 1em;
-  text-align: center;
-}
-.contact-card {
-  margin: 2em auto;
-  padding: 2em;
-  max-width: 500px;
-  background-color: #f9f9f9;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  border-radius: 12px;
-}
-.contact-card p {
-  margin: 1em 0;
-  font-size: 1.1em;
-}
-.contact-card a {
-  color: #007BFF;
-  text-decoration: none;
-}
+.contact-section { padding: 3em 1em; text-align: center; }
+.contact-card { margin: 2em auto; padding: 2em; max-width: 500px; background-color: #f9f9f9; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 12px; }
+.contact-card p { margin: 1em 0; font-size: 1.1em; }
+.contact-card a { color: #007BFF; text-decoration: none; }
+.blog-section { padding: 3em 1em; max-width: 800px; margin: auto; }
+.blog-post-preview { background-color: #f1f1f1; padding: 1.5em; margin: 1em 0; border-left: 4px solid #007BFF; border-radius: 8px; }
